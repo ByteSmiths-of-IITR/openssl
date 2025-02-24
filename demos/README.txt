@@ -26,10 +26,10 @@ EVP_MD_xof.c           Compute a digest using the SHAKE256 XOF
 EVP_f_md.c             Compute a digest using BIO and EVP_f_md
 
 encode:
-rsa_encode.c           Encode and decode PEM-encoded RSA keys
+rsa_encode.c           Encode and decode PEM-encoded RSA keys | #ToDo
 
 encrypt:
-rsa_encrypt.c          Encrypt and decrypt data using an RSA keypair.
+rsa_encrypt.c          Encrypt and decrypt data using an RSA keypair. | #ToDo
 
 guide:                   Sample code from the OpenSSL Guide tutorials. See
                          the oss-guide-quic-introduction(7) man page.
@@ -43,9 +43,9 @@ http3:                 Demonstration of how to use OpenSSL's QUIC capabilities
                        for HTTP/3.
 
 kdf:
-hkdf.c                 Demonstration of HMAC based key derivation
+hkdf.c                 Demonstration of HMAC based key derivation | #ToDo
 pbkdf2.c               Demonstration of PBKDF2 password based key derivation
-scrypt.c               Demonstration of SCRYPT password based key derivation
+scrypt.c               Demonstration of SCRYPT password based key derivation | #ToDo
 
 keyexch:
 x25519.c               Demonstration of X25519 based key exchange
@@ -78,4 +78,4 @@ rsa_pss_hash.c            Compute and verify an RSA-PSS signature over a buffer
 smime:                 Demonstrations related to S/MIME
 
 sslecho:
-main.c                 Simple SSL/TLS echo client/server.
+main.c                 Simple SSL/TLS echo client/server. | #ToDo
